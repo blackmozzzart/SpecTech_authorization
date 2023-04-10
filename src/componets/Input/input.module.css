@@ -1,0 +1,44 @@
+.wrapper {
+  text-align: left;
+
+  &:focus-within {
+    .label {
+      color: #10100F;
+    }
+  }
+
+  &+& {
+    margin-top: 19px;
+  }
+}
+
+.label {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #989898;
+  margin-bottom: 4px;
+  display: block;
+}
+
+.input {
+  border: 1px solid #E5E5E5;
+  border-radius: 5px;
+  display: block;
+  padding: 6px 13px 7px;
+  box-sizing: border-box;
+  width: 100%;
+  outline: none;
+
+  &:focus {
+    border-color: #10100F;
+  }
+}
+
+.error {
+  font-size: 14px;
+  line-height: 19px;
+  color: red;
+}

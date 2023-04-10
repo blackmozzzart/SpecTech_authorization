@@ -1,0 +1,16 @@
+.root {
+  background: #F2B705;
+  border-radius: 5px;
+  width: 100%;
+  border: none;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #FFFFFF;
+  padding: 9px 8px 8px;
+  box-sizing: border-box;
+  cursor: pointer;
+  text-transform: uppercase;
+}

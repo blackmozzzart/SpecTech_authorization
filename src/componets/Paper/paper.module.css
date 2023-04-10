@@ -1,0 +1,14 @@
+.root {
+  background: #FFFFFF;
+  box-shadow: -10px 7px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 56px 86px 90px;
+  max-width: 516px;
+  margin: 214px auto 0;
+  box-sizing: border-box;
+
+  @media (max-width: 576px) {
+    margin-top: 160px;
+    padding: 0 10px 43px;
+  }
+}
